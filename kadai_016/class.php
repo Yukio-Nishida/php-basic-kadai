@@ -69,11 +69,11 @@
                 }
                 
                 // インスタンス化する
-                $kakaku = new price();
+                $Food = new price();
                 
                 // メソッドにアクセスして実行する
-                $kakaku->set_price('250');
-                $kakaku->show_price();
+                $Food->set_price('250');
+                $Food->show_price();
                 ?>
                 
                 <?php
@@ -93,10 +93,10 @@
                 }
                 
                 // インスタンス化する
-                $takasa = new height();
+                $Animal = new height();
                 
                 // メソッドにアクセスして実行する
-                $takasa->set_height('60');
-                $takasa->show_height();
+                $Animal->set_height('60');
+                $Animal->show_height();
                 ?>
             </body>
