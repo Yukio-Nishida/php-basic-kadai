@@ -61,10 +61,10 @@
                     
                     // メソッドを定義する
                     public function set_price(int $price) {
-                        $this->price = $price;
+                        $this->Food = $price;
                     }
                     public function show_price() {
-                        echo $this->price . '<br>';
+                        echo $this->Food . '<br>';
                     }
                 }
                 
@@ -85,10 +85,10 @@
                     
                     // メソッドを定義する
                     public function set_height(int $height) {
-                        $this->height = $height;
+                        $this->Animal = $height;
                     }
                     public function show_height() {
-                        echo $this->height;
+                        echo $this->Animal;
                     }
                 }
                 
