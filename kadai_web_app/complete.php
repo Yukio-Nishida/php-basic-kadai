@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="ja">
         <head>
@@ -13,14 +9,5 @@ session_start();
             <p>社員情報がデータベースに保存されました。</p>
 
             <button id="return-btn" onclick="location.href='form.php';">戻る</button>
-
-            <?php
-            // セッション変数を初期化
-            $_SESSION = array();
-            
-            // セッションを終了
-            session_destroy();
-            ?>
-
         </body>
     </html>
